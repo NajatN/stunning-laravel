@@ -6,9 +6,9 @@ IP address: 3.250.75.146
 Definitions:
 ------------
 
-sudo: This command provides us with temporary root privileges in order to perform actions such as updating, installing, removing... It temporarily elevates our regular user account to include root privileges.
+sudo: This command provides us with temporary root/admin privileges in order to perform actions such as updating, installing, removing... It temporarily elevates our regular user account to have root privileges.
 
-apt-get: This command allows us to install, manage, update, remove, and search for software by interacting with the APT library (Advanced Package Tool).
+apt-get: This command allows us to install, manage, update, remove, and search for installed software packages by interacting with the APT library (Advanced Package Tool).
 
 Step-by-Step Tutorial:
 ----------------------
