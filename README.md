@@ -19,3 +19,44 @@ cd /var/www/html/
 pwd
 
 sudo git clone https://github.com/NajatN/stunning-laravel.git
+
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+composer install
+
+cd stunning-laravel/
+
+pwd
+
+sudo cp .env.example .env
+
+sudo vim .env
+
+sudo composer install
+
+sudo php artisan key:generate
+
+apache2 -v
+
+which apache2
+
+cd ../../../../usr/sbin/
+
+cd ../../
+
+cd /etc
+
+cd apache2/
+
+ls
+
+sudo vim apache2.conf
+
+cd sites-enabled/
+
+sudo vim 000-default.conf 
+
+sudo systemctl restart apache2
+
+
+
