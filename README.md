@@ -1,8 +1,17 @@
+Project 1:
+----------
+
+IP address: 3.250.75.146
+
+Definitions:
+------------
+
 sudo: This command provides us with temporary root privileges in order to perform actions such as updating, installing, removing... It temporarily elevates our regular user account to include root privileges.
 
 apt-get: This command allows us to install, manage, update, remove, and search for software by interacting with the APT library (Advanced Package Tool).
 
 Step-by-Step Tutorial:
+----------------------
 
 cd Downloads
 
@@ -64,10 +73,8 @@ sudo chgrp -R www-data storage bootstrap/cache
 
 sudo chmod -R ug+rwx storage bootstrap/cache
 
-
-
-
 Answers to questions:
+---------------------
 
 CheckPoint 3: 2. It did not work because of syntax errors
 
