@@ -17,3 +17,5 @@ sudo systemctl restart apache2
 cd /var/www/html/
 
 pwd
+
+sudo git clone https://github.com/NajatN/stunning-laravel.git
