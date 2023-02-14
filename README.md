@@ -58,5 +58,23 @@ sudo vim 000-default.conf
 
 sudo systemctl restart apache2
 
+cd ../../../var/www/html/stunning-laravel/
+
+sudo chgrp -R www-data storage bootstrap/cache
+
+sudo chmod -R ug+rwx storage bootstrap/cache
+
+
+
+
+Answers to questions:
+
+CheckPoint 3: 2. It did not work because of syntax errors
+
+checkPoint 4: 2. I used sudo then cp because without sudo it returned permission denied
+
+CheckPoint 6: 2. This changed the group owners of storage and bootstrap/cache to "www-data" group using admin privileges (sudo)
+
+CheckPoint 6: 3. This changed the modifications of the owner and group of storage and bootstrap/cache by giving them read, write, and execute permissions using admin privileges (sudo)
 
 
